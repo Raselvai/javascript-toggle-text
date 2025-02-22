@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+body {
+  background: #a044ff;
+}
+
+.toggle_text_wrapper {
+	padding: 100px 0;
+}
+
+.toggle_text_wrapper .toggle_text_wrap {
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.toggle_text_wrapper .toggle_text_wrap button {
+	padding: 0 20px;
+	height: 45px;
+	background: #ffffff;
+	border: transparent;
+	border-radius: 5px;
+	color: #000000;
+	font-size: 18px;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+.toggle_text_wrapper .toggle_text_wrap #myDIV {
+	width: 100%;
+	height: 500px;
+	background: #000000;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 105px;
+	border-radius: 5px;
+}
